@@ -1,0 +1,179 @@
+*{margin:0;padding:0;font-family:Roboto,sans-serif}
+ul{list-style-type:none}
+a{text-decoration:none}
+button{border:none}
+.container_hamburger{display:none}
+.promo{width:100%;min-height:500px;background:url(../img/bg1.jpg) center center/cover no-repeat;padding:55px 0}
+.container{width:1140px;margin:0 auto}
+.promo .promo_header{display:flex;justify-content:space-between;align-items:center}
+.promo .promo_logo{width:100px}
+.promo .promo_logo a{display:block}
+.promo .promo_logo img{width:100%}
+.promo .promo_nav{width:600px}
+.promo .promo_menu{display:flex;justify-content:space-around}
+.promo .promo_menu li::after{content:"";display:block;width:0%;height:1px;background-color:#fff;transition:.5s all;margin:2px auto 0 auto}
+.promo .promo_menu li:hover::after{width:100%;background-color:#ec644b}
+.promo .promo_menu a{color:#fff;font-size:15px;padding:2px;transition:.5s all}
+.promo .promo_menu a:hover{color:#ec644b}
+.promo .promo_contacts{display:flex}
+.promo .promo_phone{display:flex;flex-direction:column;align-items:flex-end;margin-right:10px}
+.promo .promo_question{color:#fff}
+.promo .promo_contacts a{color:#fff;font-size:20px;font-weight:700;margin-top:5px}
+.promo .promo_contacts a:hover{color:#fff;text-decoration:none}
+.button{width:160px;height:45px;background-color:#ec644b;border-radius:30px;color:#fff;text-transform:uppercase;text-align:center;font-size:12px;transition:.5s all;cursor:pointer}
+.button:hover{background-color:#e44427}
+.promo .promo_toptitle{margin-top:35px;color:#fff;font-size:24px;text-align:center}
+.promo .header{margin-top:25px;color:#e44427;text-transform:uppercase;font-size:64px;font-weight:800;text-align:center}
+.promo .promo_subtitle{margin-top:20px;color:#fff;font-size:42px;font-weight:500;text-align:center}
+.promo .promo_horizontal_line{margin:0 auto;margin-top:40px;width:10px;height:10px;background-color:#fff;border-radius:100%;display:block;position:relative}
+.promo .promo_horizontal_line::after,.promo .promo_horizontal_line::before{display:block;content:"";height:2px;width:390px;background-color:#fff;position:absolute;top:50%;transform:translateY(-50%);right:20px}
+.promo .promo_horizontal_line::before{left:20px}
+.promo .promo_possibility{display:flex;justify-content:space-between;margin-top:38px}
+.promo .promo_block_possibility{width:263px;text-align:center}
+.promo .promo_possibility_descr{color:#fff;font-size:16px;line-height:20px}
+.promo .button_payment{width:230px;height:58px;display:block;margin:40px auto 0 auto;font-size:15px}
+.info{background-color:#f3f3f3;min-height:300px;padding:55px 0}
+.title{color:#000;font-size:26px;font-weight:600;text-transform:uppercase;text-align:center}
+.info .info_container{display:flex;flex-wrap:wrap;justify-content:space-evenly;margin-top:35px}
+.info .info_block{width:500px;display:flex;align-items:flex-start;margin-bottom:35px}
+.info .info_descr span{display:block;color:#e44427;font-size:16px;font-weight:500}
+.info .info_descr{color:#3a3a3a;font-size:14px;line-height:18px;margin-left:25px}
+.advantages{background-color:#fff;min-height:300px;padding:49px 0}
+.content_horizontal_line{width:150px;height:2px;background-color:#e44427;margin:25px auto 0 auto}
+.subtitle{margin-top:20px;color:#2e2e2e;font-size:21px;text-align:center}
+.advantages .advantages_container{margin-top:40px;justify-content:space-around;display:flex;flex-wrap:wrap}
+.advantages .advantages_block{width:362px}
+.advantages .advantages_img img{width:100%}
+.advantages .advantages_descr{margin-top:30px;font-size:14px;color:#3a3a3a;text-align:center}
+.advantages .advantages_descr span{display:block;font-size:18px;color:#ec644b}
+.agent{padding:60px 0;min-height:200px;background:url(../img/bg2.jpg) center center/cover no-repeat}
+.agent .agent_img{margin:0 auto;width:100px;height:100px;border:solid 2px #fff;border-radius:100%;display:flex;justify-content:center;align-items:center}
+.agent .agent_subtitle{color:#fff;margin:16px 0;text-align:center;font-size:26px;font-weight:500}
+.agent .agent_descr{color:#fff;font-size:19px;text-align:center;width:970px;margin:0 auto}
+.catalog{min-height:300px;padding:60px 0}
+.catalog .catalog_container{margin-top:30px;display:flex;flex-wrap:wrap;justify-content:space-around}
+.catalog .catalog_block{width:268px;border:1px solid #eaeaea;padding-bottom:20px;text-align:center}
+.catalog .catalog_title{display:flex;justify-content:center;align-items:center;min-height:60px;width:100%;background-color:#25333c;color:#fff;font-size:16px;margin-bottom:18px}
+.catalog .catalog_title_descr{margin-top:18px;font-size:14px}
+.catalog .catalog_price{font-size:28px;color:#ec644b}
+.catalog .catalog_descr{margin:18px auto 18px auto;font-size:14px;width:220px}
+.catalog .catalog_subtitle{margin-top:55px;text-align:center;font-size:28px}
+.catalog .catalog_form{border:1px solid #c4c4c4;padding:20px 0;margin-top:20px}
+.catalog .catalog_form_img{border:1px solid #ec644b;border-radius:100%;display:flex;justify-content:center;align-items:center;width:100px;height:100px;margin:0 auto}
+.catalog .catalog_form_block{width:850px;margin:20px auto 0 auto;display:flex;justify-content:space-between}
+.catalog_form input{width:240px;height:47px;border:1px solid #c4c4c4;border-radius:30px;padding-left:30px}
+.catalog .catalog_form_btn{display:block;margin:30px auto 0 auto}
+.manager{background:url(../img/bg3.jpg) center center/cover no-repeat}
+.scheme{padding:50px 0;min-height:200px;background-color:#f3f3f3}
+.scheme .scheme_container{display:flex;justify-content:space-around;flex-wrap:wrap;margin-top:20px}
+.scheme .scheme_block{margin-top:20px;text-align:center;width:262px}
+.scheme .scheme_descr span{color:#ec644b;font-size:16px;margin-top:10px;line-height:35px}
+.scheme .scheme_descr{font-size:14px}
+.mail{min-height:150px;padding:60px 0;background:url(../img/bg4.jpg) center center/cover no-repeat}
+.mail .mail_container{width:900px;min-height:300px;background-color:rgba(253,253,253,.8);margin:0 auto;padding-bottom:25px}
+.mail .mail_title{background-color:#25333c;height:70px;color:#fff;text-align:center;font-size:19px;text-transform:uppercase;padding-top:18px}
+.mail .mail_title span{font-size:23px}
+.mail .mail_form{width:850px;display:flex;justify-content:space-between;flex-wrap:wrap;margin:0 auto;margin-top:25px}
+.mail .mail_form input{width:240px;height:47px;border:1px solid #c4c4c4;border-radius:30px;padding-left:30px}
+.mail .mail_form textarea{width:100%;height:74px;margin-top:20px;border:1px solid #c4c4c4;border-radius:5px;resize:none;padding:20px 0 0 20px}
+.mail .mail_btn{display:block;margin:15px auto 0 auto}
+footer{background-color:#25333c;height:200px;display:flex;align-items:center}
+footer .footer_container{display:flex;justify-content:space-between;align-items:center}
+footer .footer_logo{display:flex;align-items:center}
+footer .footer_logo_img{margin-right:40px;width:74px;height:74px;display:flex;align-items:center}
+footer .footer_logo_img img{width:100%}
+footer .footer_descr_logo{color:#fff;font-size:16px}
+footer .footer_contacts{display:flex;align-items:center}
+footer .promo_phone{display:flex;flex-direction:column;align-items:flex-end;margin-right:10px;color:#fff}
+footer .promo_phone a{color:#fff;font-size:21px;font-weight:600}
+@media screen and (max-width:1200px){
+.container{width:90%}
+.promo .promo_nav{width:500px}
+.promo .promo_menu a{font-size:14px}
+.promo .promo_question{font-size:14px}
+.promo .promo_contacts a{font-size:15px}
+.button{width:140px}
+.promo .header{font-size:48px}
+.promo .promo_subtitle{font-size:30px}
+.promo .promo_horizontal_line::after,.promo .promo_horizontal_line::before{width:320px}
+.advantages .advantages_block{margin-top:30px}
+.catalog .catalog_block{margin-top:30px}
+}
+@media screen and (max-width:991px){
+.promo .promo_nav{width:500px}
+.promo .promo_menu a{font-size:14px}
+.promo .promo_question{display:none}
+.promo .promo_contacts{flex-direction:column;justify-content:center}
+.promo .promo_contacts a{font-size:15px}
+.button{width:140px;height:34px;margin-top:5px}
+.promo .header{font-size:38px}
+.promo .promo_subtitle{font-size:25px}
+.promo .promo_horizontal_line::after,.promo .promo_horizontal_line::before{width:260px}
+.promo .promo_block_possibility{width:159px}
+.promo .promo_possibility_descr{font-size:13px}
+.agent .agent_descr{width:780px}
+.catalog .catalog_form_block{width:710px}
+.catalog_form input{width:202px;height:37px}
+.mail .mail_container{width:730px}
+.mail .mail_form{width:666px}
+.mail .mail_form input{width:182px;height:39px}
+footer .footer_logo_img{margin-right:20px}
+footer .footer_descr_logo{font-size:12px}
+footer .promo_phone a{font-size:18px}
+}
+@media screen and (max-width:768px){
+.promo .promo_logo{width:50px}
+.promo .promo_nav{width:350px}
+.promo .promo_menu a{font-size:10px}
+.promo .promo_question{display:none}
+.promo .promo_contacts a{font-size:10px}
+.button{width:103px;height:25px;font-size:9px}
+.promo .promo_toptitle{font-size:17px}
+.promo .header{font-size:31px}
+.promo .promo_subtitle{font-size:18px}
+.promo .promo_subtitle{font-size:18px}
+.info .info_block{align-items:center;flex-direction:column}
+.info .info_descr{text-align:center;margin-top:20px}
+.agent .agent_descr{width:80%;font-size:15px}
+.catalog .catalog_form_block{width:250px;display:flex;flex-direction:column;justify-content:space-around}
+.catalog_form input{margin-top:10px}
+.mail .mail_container{width:89%}
+.mail .mail_form{width:78%;flex-direction:column;align-items:center}
+.mail .mail_form textarea{width:80%}
+footer .promo_question{display:none}
+footer .footer_contacts{flex-direction:column;align-items:flex-end}
+footer .promo_phone a{font-size:13px}
+footer .button{width:117px}
+}
+@media screen and (max-width:576px){
+.promo .promo_nav{width:50%;height:100vh;background-color:rgba(0,0,0,.8);position:fixed;top:0;left:-100%;padding:70px 0;transition:.5s all;z-index:10}
+.promo .promo_nav_active{left:0}
+.promo .promo_menu{flex-direction:column}
+.promo .promo_menu li:first-child{border-top:1px solid rgba(253,253,253,.7)}
+.promo .promo_menu li{border-bottom:1px solid rgba(253,253,253,.7)}
+.promo .promo_menu li:hover::after{width:0%}
+.promo .promo_menu a{display:block;font-size:15px;margin-left:30px}
+.promo .promo_menu a:hover{color:#fff}
+.container_hamburger{display:flex;align-items:center;justify-content:flex-end;position:fixed;top:0;left:0;width:100%;height:50px;background-color:rgba(0,0,0,.8)}
+.container_hamburger .hamburger{width:25px;height:16px;margin-right:17px}
+.container_hamburger .hamburger span{width:100%;display:block;height:2px;background-color:#fff;margin-bottom:5px;transition:.5s all}
+.container_hamburger .hamburger span:last-child{margin-bottom:0}
+.container_hamburger .hamburger_active{margin-top:16px}
+.container_hamburger .hamburger_active span:nth-child(1){margin-bottom:-2px;transform:rotate(-45deg)}
+.container_hamburger .hamburger_active span:nth-child(2){margin-bottom:-2px;display:none}
+.container_hamburger .hamburger_active span:nth-child(3){margin-bottom:-2px;transform:rotate(45deg)}
+.promo .promo_horizontal_line::after,.promo .promo_horizontal_line::before{width:155px}
+.promo .promo_possibility{display:none}
+.promo .button_payment{margin-top:66px}
+footer .promo_phone a{font-size:12px}
+}
+@media screen and (max-width:320px){
+.promo .header{font-size:27px;line-height:29px}
+.promo .promo_subtitle{font-size:15px}
+.promo .promo_horizontal_line::after,.promo .promo_horizontal_line::before{width:118px}
+.mail .mail_title span{font-size:19px}
+.mail .mail_title{font-size:18px}
+.mail .mail_form input{width:157px;height:32px;margin-top:8px}
+footer .promo_phone a{font-size:11px}
+footer .button{width:105px}
+}
